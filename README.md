@@ -1,2 +1,2 @@
-# IPC_OS
+# PROVA
 This is a repository regarding the world of the IPC. All the projects are written in C/C++
