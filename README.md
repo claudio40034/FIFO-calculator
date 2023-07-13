@@ -6,3 +6,4 @@ I tried to manage the busy waiting with the function sleep, where the client sle
 
 There are other check like the busy status of the server but also the effective status of the server(if he isn't a process executed, the client can't gain the shared memory segment and so the architecture doesn't work).
 When the server is killed by a Signal (SIGTERM), all the clients are killed by the pid that are "saved" in both variables and in a queue.
+Project written in C++ for the objects.
